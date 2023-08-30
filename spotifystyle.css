@@ -182,14 +182,16 @@ a{
 .card-img{
     width:100%;
     border-radius: 0.5rem;
-
 }
+
 .card-title{
     font-weight: 600;
 }
+
 .card-info{
     font-size:0.85rem;
     opacity: 0.8;
+
 }
 
 .footer{
@@ -198,26 +200,65 @@ a{
     align-items: center;
     justify-content: center;
 }
+
 .line{
     width:90%;
     height:50%;
     border-top: solid white;
     opacity: 0.4;
 }
+
 .music-player{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .album{
     width:25%;
 }
+
 .player{
     width:25%;
 }
+
 .controls{
     width:25%;
 }
-.player i{
-    
+
+.player-controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player-icons{
+    opacity: 0.7;
+    margin-right: 1.75rem;
+}
+
+.player-icons:hover{
+    opacity: 1;
+}
+
+.progress-bar{
+    width:70%;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.progress-bar::-webkit-slider-runnable-track{
+    background-color: #ddd;
+    border-radius: 100px;
+    height:0.2rem;
+}
+
+.progress-bar::-webkit-slider-thumb{
+    appearance: none;
+    height:1rem;
+    width:1rem;
+    margin-top: -6px;
+    border-radius: 50%;
+    background-color: #1bd760;
 }
