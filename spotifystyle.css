@@ -262,3 +262,28 @@ a{
     border-radius: 50%;
     background-color: #1bd760;
 }
+
+.album{
+    display: flex;
+    justify-content: center;
+}
+.album-icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem;
+}
+.album-icons i{
+    margin: 0.2rem;
+}
+.album-img{
+    width:25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem;
+}
+.album-img img{
+    width:30%;
+    height: 50%;
+}
