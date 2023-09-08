@@ -273,7 +273,7 @@ a{
 
 .album{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 .album-icons{
@@ -289,15 +289,16 @@ a{
 
 .album-img{
     width:25%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    /* display: flex; */
+    
+    /* align-items: center; */
     margin: 1rem;
 }
 
 .album-img img{
-    width:30%;
-    height: 50%;
+    width:60%;
+    height: 90%;
+    justify-content: space-around;
 }
 
 .controls{
