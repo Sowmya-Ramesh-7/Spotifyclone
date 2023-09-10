@@ -58,6 +58,7 @@ a{
 
 .nav-option:hover{
     opacity: 1;
+    cursor: pointer;
 }
 
 .nav-option i{
@@ -99,6 +100,7 @@ a{
 
 .icons i:hover{
     opacity:1;
+    cursor: pointer;
 }
 
 .box{
@@ -129,6 +131,7 @@ a{
 }
 .badge:hover{
     transform: scale(1.1);
+    cursor: pointer;
 }
 
 .sticky-nav{
@@ -178,7 +181,7 @@ a{
 }
 .card:hover{
     background-color: #232323;
-    
+    cursor: pointer;
 
 }
 
@@ -247,6 +250,7 @@ a{
 
 .player-icons:hover{
     opacity: 1;
+    cursor: pointer;
 }
 
 .progress-bar{
